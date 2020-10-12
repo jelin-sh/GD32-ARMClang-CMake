@@ -1,0 +1,16 @@
+"D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\skjsn\CLionProjects\EmbeddedProject_Demo
+-- The ASM compiler identification is ARMClang
+-- Found assembler: D:/Program Files (x86)/Keilv5/Backup.002/ARM/ARMCLANG/bin/armclang.exe
+-- The C compiler identification is ARMClang 6.14.2
+-- The CXX compiler identification is ARMClang 6.14.2
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - failed
+-- Detecting CXX compile features
+-- Detecting CXX compile features - failed
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug
