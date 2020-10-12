@@ -8,7 +8,7 @@ include(ARMClang_Cortex-M4.cmake)
 CMSIS_EnableFPU(FALSE)
 
 #设置Sections脚本路径
-CMSIS_SetSectionsScriptPath(${CMAKE_HOME_DIRECTORY}/FOC_GD32F303_Test.sct)
+CMSIS_SetSectionsScriptPath(${CMAKE_HOME_DIRECTORY}/GD32.sct)
 
 #配置交叉编译
 CMSIS_CrossCompilingConfiguration()

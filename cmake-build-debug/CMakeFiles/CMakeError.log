@@ -101,32 +101,32 @@ armclang: fatal error: no target architecture given; use --target=arm-arm-none-e
 Detecting C compiler ABI info failed to compile with the following output:
 Change Dir: C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MinGW64/bin/mingw32-make.exe cmTC_19232/fast && C:/PROGRA~2/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_19232.dir\build.make CMakeFiles/cmTC_19232.dir/build
+Run Build Command(s):C:/PROGRA~2/MinGW64/bin/mingw32-make.exe cmTC_6c04f/fast && C:/PROGRA~2/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6c04f.dir\build.make CMakeFiles/cmTC_6c04f.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_19232.dir/CMakeCCompilerABI.o
-"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armclang.exe" --target=arm-arm-none-eabi   --target=arm-arm-none-eabi -mcpu=Cortex-M4 -mfloat-abi=soft -mfpu=none -fno-rtti -c -ffunction-sections -O1 -w -mcpu=Cortex-M4    -v -o CMakeFiles\cmTC_19232.dir\CMakeCCompilerABI.o   -c "D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
+Building C object CMakeFiles/cmTC_6c04f.dir/CMakeCCompilerABI.o
+"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armclang.exe" --target=arm-arm-none-eabi   --target=arm-arm-none-eabi -mcpu=Cortex-M4 -mfloat-abi=soft -mfpu=none -fno-rtti -c -ffunction-sections -O1 -w -mcpu=Cortex-M4    -v -o CMakeFiles\cmTC_6c04f.dir\CMakeCCompilerABI.o   -c "D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\share\cmake-3.17\Modules\CMakeCCompilerABI.c"
 Product: MDK Plus 5.31
 Component: ARM Compiler 6.14
 Tool: armclang [5db06c00]
 
 Target: arm-arm-none-eabi
  (in-process)
- "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\armclang.exe" -cc1 -triple thumbv7em-arm-none-eabi -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fno-trapping-math -fdenormal-fp-math=preserve-sign -fno-rounding-math -ffinite-math-only -masm-verbose -mconstructor-aliases -target-cpu cortex-m4 -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections -resource-dir "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\lib\\clang\\11.0.0" -internal-isystem "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\..\\include" -nobuiltininc -O1 -w -fdebug-compilation-dir "C:\\Users\\skjsn\\CLionProjects\\EmbeddedProject_Demo\\cmake-build-debug\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -fvisibility hidden -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fno-common -fdiagnostics-show-option -fsuppress-licensing -aggressive-jump-threading -o "CMakeFiles\\cmTC_19232.dir\\CMakeCCompilerABI.o" -x c "D:\\Program Files\\JetBrains\\CLion 203.4203.24\\bin\\cmake\\win\\share\\cmake-3.17\\Modules\\CMakeCCompilerABI.c"
+ "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\armclang.exe" -cc1 -triple thumbv7em-arm-none-eabi -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fno-trapping-math -fdenormal-fp-math=preserve-sign -fno-rounding-math -ffinite-math-only -masm-verbose -mconstructor-aliases -target-cpu cortex-m4 -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections -resource-dir "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\lib\\clang\\11.0.0" -internal-isystem "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\..\\include" -nobuiltininc -O1 -w -fdebug-compilation-dir "C:\\Users\\skjsn\\CLionProjects\\EmbeddedProject_Demo\\cmake-build-debug\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -fvisibility hidden -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fno-common -fdiagnostics-show-option -fsuppress-licensing -aggressive-jump-threading -o "CMakeFiles\\cmTC_6c04f.dir\\CMakeCCompilerABI.o" -x c "D:\\Program Files\\JetBrains\\CLion 203.4203.24\\bin\\cmake\\win\\share\\cmake-3.17\\Modules\\CMakeCCompilerABI.c"
 ARM Compiler 6.14 -cc1 default target aarch64-arm-none-eabi
 #include "..." search starts here:
 #include <...> search starts here:
  D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\..\include
 End of search list.
-Linking C executable cmTC_19232.elf
-"D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_19232.dir\link.txt --verbose=1
-"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armlink.exe" --cpu=Cortex-M4 --cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers -v  CMakeFiles/cmTC_19232.dir/CMakeCCompilerABI.o -o cmTC_19232.elf --list cmTC_19232.map
-"C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct", line 7 (column 9): Error: L6236E: No section matches selector - no section to be FIRST/LAST.
+Linking C executable cmTC_6c04f.elf
+"D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6c04f.dir\link.txt --verbose=1
+"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armlink.exe" --cpu=Cortex-M4 --cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers -v  CMakeFiles/cmTC_6c04f.dir/CMakeCCompilerABI.o -o cmTC_6c04f.elf --list cmTC_6c04f.map
+"C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct", line 7 (column 9): Error: L6236E: No section matches selector - no section to be FIRST/LAST.
 Not enough information to list image symbols.
 Not enough information to list load addresses in the image map.
 Finished: 2 information, 0 warning and 1 error messages.
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_19232.dir\build.make:106: cmTC_19232.elf] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_6c04f.dir\build.make:106: cmTC_6c04f.elf] Error 1
 mingw32-make.exe[1]: Leaving directory 'C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:140: cmTC_19232/fast] Error 2
+mingw32-make.exe: *** [Makefile:140: cmTC_6c04f/fast] Error 2
 
 
 
@@ -134,33 +134,33 @@ mingw32-make.exe: *** [Makefile:140: cmTC_19232/fast] Error 2
 Detecting CXX compiler ABI info failed to compile with the following output:
 Change Dir: C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MinGW64/bin/mingw32-make.exe cmTC_aeca1/fast && C:/PROGRA~2/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_aeca1.dir\build.make CMakeFiles/cmTC_aeca1.dir/build
+Run Build Command(s):C:/PROGRA~2/MinGW64/bin/mingw32-make.exe cmTC_3fc43/fast && C:/PROGRA~2/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3fc43.dir\build.make CMakeFiles/cmTC_3fc43.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_aeca1.dir/CMakeCXXCompilerABI.o
-"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armclang.exe" --target=arm-arm-none-eabi    --target=arm-arm-none-eabi -mcpu=Cortex-M4 -mfloat-abi=soft -mfpu=none -fno-rtti -c -ffunction-sections -O1 -w -mcpu=Cortex-M4    -v -o CMakeFiles\cmTC_aeca1.dir\CMakeCXXCompilerABI.o -c "D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
+Building CXX object CMakeFiles/cmTC_3fc43.dir/CMakeCXXCompilerABI.o
+"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armclang.exe" --target=arm-arm-none-eabi    --target=arm-arm-none-eabi -mcpu=Cortex-M4 -mfloat-abi=soft -mfpu=none -fno-rtti -c -ffunction-sections -O1 -w -mcpu=Cortex-M4    -v -o CMakeFiles\cmTC_3fc43.dir\CMakeCXXCompilerABI.o -c "D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\share\cmake-3.17\Modules\CMakeCXXCompilerABI.cpp"
 Product: MDK Plus 5.31
 Component: ARM Compiler 6.14
 Tool: armclang [5db06c00]
 
 Target: arm-arm-none-eabi
  (in-process)
- "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\armclang.exe" -cc1 -triple thumbv7em-arm-none-eabi -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -Werror=return-type -mrelocation-model static -mthread-model posix -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fno-trapping-math -fdenormal-fp-math=preserve-sign -fno-rounding-math -ffinite-math-only -masm-verbose -mconstructor-aliases -target-cpu cortex-m4 -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections -resource-dir "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\lib\\clang\\11.0.0" -D__ARMCOMPILER_LIBCXX=1 -internal-isystem "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\..\\include\\libcxx" -internal-isystem "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\..\\include" -nobuiltininc -O1 -w -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\skjsn\\CLionProjects\\EmbeddedProject_Demo\\cmake-build-debug\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -fvisibility hidden -fno-rtti -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fno-common -fdiagnostics-show-option -fsuppress-licensing -aggressive-jump-threading -o "CMakeFiles\\cmTC_aeca1.dir\\CMakeCXXCompilerABI.o" -x c++ "D:\\Program Files\\JetBrains\\CLion 203.4203.24\\bin\\cmake\\win\\share\\cmake-3.17\\Modules\\CMakeCXXCompilerABI.cpp"
+ "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\armclang.exe" -cc1 -triple thumbv7em-arm-none-eabi -emit-obj -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -Werror=return-type -mrelocation-model static -mthread-model posix -mframe-pointer=none -menable-no-infs -menable-no-nans -fmath-errno -fno-signed-zeros -fno-trapping-math -fdenormal-fp-math=preserve-sign -fno-rounding-math -ffinite-math-only -masm-verbose -mconstructor-aliases -target-cpu cortex-m4 -target-feature +soft-float -target-feature +soft-float-abi -target-feature -vfp2 -target-feature -vfp2sp -target-feature -vfp3 -target-feature -vfp3d16 -target-feature -vfp3d16sp -target-feature -vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature -fp64 -target-feature -d32 -target-feature -neon -target-feature -crypto -target-feature -dotprod -target-feature -fp16fml -target-feature -bf16 -target-feature -mve -target-feature -mve.fp -target-feature -fpregs -target-abi aapcs -msoft-float -mfloat-abi soft -fallow-half-arguments-and-returns -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -fforce-dwarf-frame -v -ffunction-sections -fdata-sections -resource-dir "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\lib\\clang\\11.0.0" -D__ARMCOMPILER_LIBCXX=1 -internal-isystem "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\..\\include\\libcxx" -internal-isystem "D:\\Program Files (x86)\\Keilv5\\Backup.002\\ARM\\ARMCLANG\\bin\\..\\include" -nobuiltininc -O1 -w -fdeprecated-macro -fdebug-compilation-dir "C:\\Users\\skjsn\\CLionProjects\\EmbeddedProject_Demo\\cmake-build-debug\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -fvisibility hidden -fno-rtti -fno-signed-char -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fcxx-exceptions -fexceptions -fno-common -fdiagnostics-show-option -fsuppress-licensing -aggressive-jump-threading -o "CMakeFiles\\cmTC_3fc43.dir\\CMakeCXXCompilerABI.o" -x c++ "D:\\Program Files\\JetBrains\\CLion 203.4203.24\\bin\\cmake\\win\\share\\cmake-3.17\\Modules\\CMakeCXXCompilerABI.cpp"
 ARM Compiler 6.14 -cc1 default target aarch64-arm-none-eabi
 #include "..." search starts here:
 #include <...> search starts here:
  D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\..\include\libcxx
  D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\..\include
 End of search list.
-Linking CXX executable cmTC_aeca1.elf
-"D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_aeca1.dir\link.txt --verbose=1
-"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armlink.exe" --cpu=Cortex-M4 --cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers -v  CMakeFiles/cmTC_aeca1.dir/CMakeCXXCompilerABI.o -o cmTC_aeca1.elf --list cmTC_aeca1.map
-"C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct", line 7 (column 9): Error: L6236E: No section matches selector - no section to be FIRST/LAST.
+Linking CXX executable cmTC_3fc43.elf
+"D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_3fc43.dir\link.txt --verbose=1
+"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armlink.exe" --cpu=Cortex-M4 --cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers -v  CMakeFiles/cmTC_3fc43.dir/CMakeCXXCompilerABI.o -o cmTC_3fc43.elf --list cmTC_3fc43.map
+"C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct", line 7 (column 9): Error: L6236E: No section matches selector - no section to be FIRST/LAST.
 Not enough information to list image symbols.
 Not enough information to list load addresses in the image map.
 Finished: 2 information, 0 warning and 1 error messages.
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_aeca1.dir\build.make:106: cmTC_aeca1.elf] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_3fc43.dir\build.make:106: cmTC_3fc43.elf] Error 1
 mingw32-make.exe[1]: Leaving directory 'C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:140: cmTC_aeca1/fast] Error 2
+mingw32-make.exe: *** [Makefile:140: cmTC_3fc43/fast] Error 2
 
 
 
@@ -168,20 +168,20 @@ mingw32-make.exe: *** [Makefile:140: cmTC_aeca1/fast] Error 2
 Detecting CXX [] compiler features failed to compile with the following output:
 Change Dir: C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/PROGRA~2/MinGW64/bin/mingw32-make.exe cmTC_a7499/fast && C:/PROGRA~2/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_a7499.dir\build.make CMakeFiles/cmTC_a7499.dir/build
+Run Build Command(s):C:/PROGRA~2/MinGW64/bin/mingw32-make.exe cmTC_0d321/fast && C:/PROGRA~2/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0d321.dir\build.make CMakeFiles/cmTC_0d321.dir/build
 mingw32-make.exe[1]: Entering directory 'C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a7499.dir/feature_tests.o
-"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armclang.exe" --target=arm-arm-none-eabi    --target=arm-arm-none-eabi -mcpu=Cortex-M4 -mfloat-abi=soft -mfpu=none -fno-rtti -c -ffunction-sections -O1 -w -mcpu=Cortex-M4    -o CMakeFiles\cmTC_a7499.dir\feature_tests.o -c C:\Users\skjsn\CLionProjects\EmbeddedProject_Demo\cmake-build-debug\CMakeFiles\feature_tests.cxx
-Linking CXX executable cmTC_a7499.elf
-"D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_a7499.dir\link.txt --verbose=1
-"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armlink.exe" --cpu=Cortex-M4 --cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers   CMakeFiles/cmTC_a7499.dir/feature_tests.o -o cmTC_a7499.elf --list cmTC_a7499.map
-"C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct", line 7 (column 9): Error: L6236E: No section matches selector - no section to be FIRST/LAST.
+Building CXX object CMakeFiles/cmTC_0d321.dir/feature_tests.o
+"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armclang.exe" --target=arm-arm-none-eabi    --target=arm-arm-none-eabi -mcpu=Cortex-M4 -mfloat-abi=soft -mfpu=none -fno-rtti -c -ffunction-sections -O1 -w -mcpu=Cortex-M4    -o CMakeFiles\cmTC_0d321.dir\feature_tests.o -c C:\Users\skjsn\CLionProjects\EmbeddedProject_Demo\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_0d321.elf
+"D:\Program Files\JetBrains\CLion 203.4203.24\bin\cmake\win\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0d321.dir\link.txt --verbose=1
+"D:\Program Files (x86)\Keilv5\Backup.002\ARM\ARMCLANG\bin\armlink.exe" --cpu=Cortex-M4 --cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers   CMakeFiles/cmTC_0d321.dir/feature_tests.o -o cmTC_0d321.elf --list cmTC_0d321.map
+"C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct", line 7 (column 9): Error: L6236E: No section matches selector - no section to be FIRST/LAST.
 Not enough information to list image symbols.
 Not enough information to list load addresses in the image map.
 Finished: 2 information, 0 warning and 1 error messages.
-mingw32-make.exe[1]: *** [CMakeFiles\cmTC_a7499.dir\build.make:106: cmTC_a7499.elf] Error 1
+mingw32-make.exe[1]: *** [CMakeFiles\cmTC_0d321.dir\build.make:106: cmTC_0d321.elf] Error 1
 mingw32-make.exe[1]: Leaving directory 'C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/CMakeTmp'
-mingw32-make.exe: *** [Makefile:140: cmTC_a7499/fast] Error 2
+mingw32-make.exe: *** [Makefile:140: cmTC_0d321/fast] Error 2
 
 
 

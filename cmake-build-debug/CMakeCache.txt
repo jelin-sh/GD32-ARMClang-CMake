@@ -105,13 +105,13 @@ CMAKE_C_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 CMAKE_DLLTOOL:FILEPATH=C:/Program Files (x86)/MinGW64/bin/dlltool.exe
 
 //Flags used by the linker during all build types.
-CMAKE_EXE_LINKER_FLAGS:STRING=--cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers
+CMAKE_EXE_LINKER_FLAGS:STRING=--cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers
 
 //Flags used by the linker during DEBUG builds.
 CMAKE_EXE_LINKER_FLAGS_DEBUG:STRING=
 
 //global
-CMAKE_EXE_LINKER_FLAGS_INIT:STRING='        --cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers     '
+CMAKE_EXE_LINKER_FLAGS_INIT:STRING='        --cpu=Cortex-M4 --fpu=SoftVFP         --strict         --scatter C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct         --summary_stderr         --info summarysizes         --map --load_addr_map_info --xref --callgraph --symbols         --info sizes --info totals --info unused --info veneers     '
 
 //Flags used by the linker during MINSIZEREL builds.
 CMAKE_EXE_LINKER_FLAGS_MINSIZEREL:STRING=
@@ -271,7 +271,7 @@ ProcessorCount_cmd_sysinfo:FILEPATH=ProcessorCount_cmd_sysinfo-NOTFOUND
 ProcessorCount_cmd_uname:FILEPATH=ProcessorCount_cmd_uname-NOTFOUND
 
 //global
-SECTIONS_SCRIPT_PATH:STRING=C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/FOC_GD32F303_Test.sct
+SECTIONS_SCRIPT_PATH:STRING=C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/GD32.sct
 
 
 ########################
