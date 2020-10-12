@@ -1,0 +1,34 @@
+The target system is: Generic -  - Cortex-M4
+The host system is: Windows - 10.0.19042 - AMD64
+Checking whether the ASM compiler is ARMClang using "--version" matched "armclang":
+Product: MDK Plus 5.31
+Component: ARM Compiler 6.14
+Tool: armclang [5db06c00]
+
+Target: unspecified-arm-none-unspecified
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/Program Files (x86)/Keilv5/Backup.002/ARM/ARMCLANG/bin/armclang.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is ARMClang, found in "C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/Program Files (x86)/Keilv5/Backup.002/ARM/ARMCLANG/bin/armclang.exe 
+Build flags: 
+Id flags: --target=arm-arm-none-eabi;-mcpu=cortex-m3 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is ARMClang, found in "C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+

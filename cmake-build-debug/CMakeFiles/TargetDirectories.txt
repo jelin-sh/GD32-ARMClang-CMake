@@ -1,0 +1,3 @@
+C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/EmbeddedProject_Demo.dir
+C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/skjsn/CLionProjects/EmbeddedProject_Demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
